@@ -200,7 +200,7 @@ public class Application {
 
     private void run() {
         ExecutorService executor = Executors.newFixedThreadPool(12);
-
+        System.out.println("Hi there!");
         try {
             // Associations handling.
             String assoc = activator.assoc();
